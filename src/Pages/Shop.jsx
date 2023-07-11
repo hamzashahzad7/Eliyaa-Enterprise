@@ -1,4 +1,10 @@
 import React from "react";
+import product1 from "../assets/images/1.jpg";
+import product2 from "../assets/images/2.jpg";
+import product3 from "../assets/images/3.png";
+import product4 from "../assets/images/4.jpg";
+import product5 from "../assets/images/5.jpg";
+import product6 from "../assets/images/6.jpg";
 
 const Shop = () => {
   return (
@@ -44,63 +50,6 @@ const Shop = () => {
                         ></ion-icon>
                       </div>
                     </button>
-
-                    <ul
-                      className="sidebar-submenu-category-list"
-                      data-accordion
-                    >
-                      <li className="sidebar-submenu-category">
-                        <a href="#" className="sidebar-submenu-title">
-                          <p className="product-name">Inverters / UPS</p>
-                          <data
-                            value="300"
-                            className="stock"
-                            title="Available Stock"
-                          >
-                            300
-                          </data>
-                        </a>
-                      </li>
-
-                      <li className="sidebar-submenu-category">
-                        <a href="#" className="sidebar-submenu-title">
-                          <p className="product-name">shorts & jeans</p>
-                          <data
-                            value="60"
-                            className="stock"
-                            title="Available Stock"
-                          >
-                            60
-                          </data>
-                        </a>
-                      </li>
-
-                      <li className="sidebar-submenu-category">
-                        <a href="#" className="sidebar-submenu-title">
-                          <p className="product-name">jacket</p>
-                          <data
-                            value="50"
-                            className="stock"
-                            title="Available Stock"
-                          >
-                            50
-                          </data>
-                        </a>
-                      </li>
-
-                      <li className="sidebar-submenu-category">
-                        <a href="#" className="sidebar-submenu-title">
-                          <p className="product-name">dress & frock</p>
-                          <data
-                            value="87"
-                            className="stock"
-                            title="Available Stock"
-                          >
-                            87
-                          </data>
-                        </a>
-                      </li>
-                    </ul>
                   </li>
 
                   <li className="sidebar-menu-category">
@@ -109,7 +58,7 @@ const Shop = () => {
                       data-accordion-btn
                     >
                       <div className="menu-title-flex">
-                        <p className="menu-title">Inverters / UPS</p>
+                        <p className="menu-title">UPS / Inverters</p>
                       </div>
 
                       <div>
@@ -123,142 +72,6 @@ const Shop = () => {
                         ></ion-icon>
                       </div>
                     </button>
-
-                    <ul
-                      className="sidebar-submenu-category-list"
-                      data-accordion
-                    >
-                      <li className="sidebar-submenu-category">
-                        <a href="#" className="sidebar-submenu-title">
-                          <p className="product-name">Inverters / UPS</p>
-                          <data
-                            value="300"
-                            className="stock"
-                            title="Available Stock"
-                          >
-                            300
-                          </data>
-                        </a>
-                      </li>
-
-                      <li className="sidebar-submenu-category">
-                        <a href="#" className="sidebar-submenu-title">
-                          <p className="product-name">shorts & jeans</p>
-                          <data
-                            value="60"
-                            className="stock"
-                            title="Available Stock"
-                          >
-                            60
-                          </data>
-                        </a>
-                      </li>
-
-                      <li className="sidebar-submenu-category">
-                        <a href="#" className="sidebar-submenu-title">
-                          <p className="product-name">jacket</p>
-                          <data
-                            value="50"
-                            className="stock"
-                            title="Available Stock"
-                          >
-                            50
-                          </data>
-                        </a>
-                      </li>
-
-                      <li className="sidebar-submenu-category">
-                        <a href="#" className="sidebar-submenu-title">
-                          <p className="product-name">dress & frock</p>
-                          <data
-                            value="87"
-                            className="stock"
-                            title="Available Stock"
-                          >
-                            87
-                          </data>
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-
-                  <li className="sidebar-menu-category">
-                    <button
-                      className="sidebar-accordion-menu"
-                      data-accordion-btn
-                    >
-                      <div className="menu-title-flex">
-                        <p className="menu-title">Solar Pumps</p>
-                      </div>
-
-                      <div>
-                        <ion-icon
-                          name="add-outline"
-                          className="add-icon"
-                        ></ion-icon>
-                        <ion-icon
-                          name="remove-outline"
-                          className="remove-icon"
-                        ></ion-icon>
-                      </div>
-                    </button>
-
-                    <ul
-                      className="sidebar-submenu-category-list"
-                      data-accordion
-                    >
-                      <li className="sidebar-submenu-category">
-                        <a href="#" className="sidebar-submenu-title">
-                          <p className="product-name">Inverters / UPS</p>
-                          <data
-                            value="300"
-                            className="stock"
-                            title="Available Stock"
-                          >
-                            300
-                          </data>
-                        </a>
-                      </li>
-
-                      <li className="sidebar-submenu-category">
-                        <a href="#" className="sidebar-submenu-title">
-                          <p className="product-name">shorts & jeans</p>
-                          <data
-                            value="60"
-                            className="stock"
-                            title="Available Stock"
-                          >
-                            60
-                          </data>
-                        </a>
-                      </li>
-
-                      <li className="sidebar-submenu-category">
-                        <a href="#" className="sidebar-submenu-title">
-                          <p className="product-name">jacket</p>
-                          <data
-                            value="50"
-                            className="stock"
-                            title="Available Stock"
-                          >
-                            50
-                          </data>
-                        </a>
-                      </li>
-
-                      <li className="sidebar-submenu-category">
-                        <a href="#" className="sidebar-submenu-title">
-                          <p className="product-name">dress & frock</p>
-                          <data
-                            value="87"
-                            className="stock"
-                            title="Available Stock"
-                          >
-                            87
-                          </data>
-                        </a>
-                      </li>
-                    </ul>
                   </li>
 
                   <li className="sidebar-menu-category">
@@ -281,67 +94,31 @@ const Shop = () => {
                         ></ion-icon>
                       </div>
                     </button>
+                  </li>
 
-                    <ul
-                      className="sidebar-submenu-category-list"
-                      data-accordion
+                  <li className="sidebar-menu-category">
+                    <button
+                      className="sidebar-accordion-menu"
+                      data-accordion-btn
                     >
-                      <li className="sidebar-submenu-category">
-                        <a href="#" className="sidebar-submenu-title">
-                          <p className="product-name">Inverters / UPS</p>
-                          <data
-                            value="300"
-                            className="stock"
-                            title="Available Stock"
-                          >
-                            300
-                          </data>
-                        </a>
-                      </li>
+                      <div className="menu-title-flex">
+                        <p className="menu-title">Others</p>
+                      </div>
 
-                      <li className="sidebar-submenu-category">
-                        <a href="#" className="sidebar-submenu-title">
-                          <p className="product-name">shorts & jeans</p>
-                          <data
-                            value="60"
-                            className="stock"
-                            title="Available Stock"
-                          >
-                            60
-                          </data>
-                        </a>
-                      </li>
-
-                      <li className="sidebar-submenu-category">
-                        <a href="#" className="sidebar-submenu-title">
-                          <p className="product-name">jacket</p>
-                          <data
-                            value="50"
-                            className="stock"
-                            title="Available Stock"
-                          >
-                            50
-                          </data>
-                        </a>
-                      </li>
-
-                      <li className="sidebar-submenu-category">
-                        <a href="#" className="sidebar-submenu-title">
-                          <p className="product-name">dress & frock</p>
-                          <data
-                            value="87"
-                            className="stock"
-                            title="Available Stock"
-                          >
-                            87
-                          </data>
-                        </a>
-                      </li>
-                    </ul>
+                      <div>
+                        <ion-icon
+                          name="add-outline"
+                          className="add-icon"
+                        ></ion-icon>
+                        <ion-icon
+                          name="remove-outline"
+                          className="remove-icon"
+                        ></ion-icon>
+                      </div>
+                    </button>
                   </li>
                 </ul>
               </div>
-
             </div>
 
             <div className="product-box">
@@ -356,227 +133,83 @@ const Shop = () => {
                   <div className="showcase-wrapper has-scrollbar">
                     <div className="showcase-container">
                       <div className="showcase">
-                        <a href="#" className="showcase-img-box">
+                        <a className="showcase-img-box">
                           <img
-                            src="./assets/images/products/clothes-1.jpg"
-                            alt="relaxed short full sleeve t-shirt"
+                            src={product1}
+                            alt="Longi 540 Bifacial Hi-Mo5 LR5-72HBD"
                             width="70"
                             className="showcase-img"
                           />
                         </a>
 
                         <div className="showcase-content">
-                          <a href="#">
+                          <a href="text">
                             <h4 className="showcase-title">
-                              Relaxed Short full Sleeve T-Shirt
+                              Longi 540 Bifacial Hi-Mo5 LR5-72HBD
                             </h4>
                           </a>
 
-                          <a href="#" className="showcase-category">
-                            Clothes
+                          <a className="showcase-category">
+                            Electronics
                           </a>
 
                           <div className="price-box">
-                            <p className="price">$45.00</p>
-                            <del>$12.00</del>
+                            <p className="price">$145.00</p>
                           </div>
                         </div>
                       </div>
 
                       <div className="showcase">
-                        <a href="#" className="showcase-img-box">
+                        <a className="showcase-img-box">
                           <img
-                            src="./assets/images/products/clothes-2.jpg"
-                            alt="girls pink embro design top"
+                            src={product2}
+                            alt="Jinko 535W Tiger Pro 72HC Mono Facial Module"
                             className="showcase-img"
                             width="70"
                           />
                         </a>
 
                         <div className="showcase-content">
-                          <a href="#">
+                          <a href="text">
                             <h4 className="showcase-title">
-                              Girls pnk Embro design Top
+                              Jinko 535W Tiger Pro 72HC Mono Facial Module
                             </h4>
                           </a>
 
-                          <a href="#" className="showcase-category">
-                            Clothes
+                          <a className="showcase-category">
+                            Electronics
                           </a>
 
                           <div className="price-box">
-                            <p className="price">$61.00</p>
-                            <del>$9.00</del>
+                            <p className="price">$100.00</p>
                           </div>
                         </div>
                       </div>
 
                       <div className="showcase">
-                        <a href="#" className="showcase-img-box">
+                        <a className="showcase-img-box">
                           <img
-                            src="./assets/images/products/clothes-3.jpg"
-                            alt="black floral wrap midi skirt"
+                            src={product3}
+                            alt="Cheetah Plus HC 78M 400Watt Mono Perc Half Cell Module"
                             className="showcase-img"
                             width="70"
                           />
                         </a>
 
                         <div className="showcase-content">
-                          <a href="#">
+                          <a href="text">
                             <h4 className="showcase-title">
-                              Black Floral Wrap Midi Skirt
+                              Cheetah Plus HC 78M 400Watt Mono Perc Half Cell
+                              Module
                             </h4>
                           </a>
 
-                          <a href="#" className="showcase-category">
-                            Clothes
+                          <a className="showcase-category">
+                            Electronics
                           </a>
 
                           <div className="price-box">
-                            <p className="price">$76.00</p>
-                            <del>$25.00</del>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div className="showcase">
-                        <a href="#" className="showcase-img-box">
-                          <img
-                            src="./assets/images/products/shirt-1.jpg"
-                            alt="pure garment dyed cotton shirt"
-                            className="showcase-img"
-                            width="70"
-                          />
-                        </a>
-
-                        <div className="showcase-content">
-                          <a href="#">
-                            <h4 className="showcase-title">
-                              Pure Garment Dyed Cotton Shirt
-                            </h4>
-                          </a>
-
-                          <a href="#" className="showcase-category">
-                            Mens Fashion
-                          </a>
-
-                          <div className="price-box">
-                            <p className="price">$68.00</p>
-                            <del>$31.00</del>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="showcase-container">
-                      <div className="showcase">
-                        <a href="#" className="showcase-img-box">
-                          <img
-                            src="./assets/images/products/jacket-5.jpg"
-                            alt="men yarn fleece full-zip jacket"
-                            className="showcase-img"
-                            width="70"
-                          />
-                        </a>
-
-                        <div className="showcase-content">
-                          <a href="#">
-                            <h4 className="showcase-title">
-                              MEN Yarn Fleece Full-Zip Jacket
-                            </h4>
-                          </a>
-
-                          <a href="#" className="showcase-category">
-                            Winter wear
-                          </a>
-
-                          <div className="price-box">
-                            <p className="price">$61.00</p>
-                            <del>$11.00</del>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div className="showcase">
-                        <a href="#" className="showcase-img-box">
-                          <img
-                            src="./assets/images/products/jacket-1.jpg"
-                            alt="mens winter leathers jackets"
-                            className="showcase-img"
-                            width="70"
-                          />
-                        </a>
-
-                        <div className="showcase-content">
-                          <a href="#">
-                            <h4 className="showcase-title">
-                              Mens Winter Leathers Jackets
-                            </h4>
-                          </a>
-
-                          <a href="#" className="showcase-category">
-                            Winter wear
-                          </a>
-
-                          <div className="price-box">
-                            <p className="price">$32.00</p>
-                            <del>$20.00</del>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div className="showcase">
-                        <a href="#" className="showcase-img-box">
-                          <img
-                            src="./assets/images/products/jacket-3.jpg"
-                            alt="mens winter leathers jackets"
-                            className="showcase-img"
-                            width="70"
-                          />
-                        </a>
-
-                        <div className="showcase-content">
-                          <a href="#">
-                            <h4 className="showcase-title">
-                              Mens Winter Leathers Jackets
-                            </h4>
-                          </a>
-
-                          <a href="#" className="showcase-category">
-                            Jackets
-                          </a>
-
-                          <div className="price-box">
-                            <p className="price">$50.00</p>
-                            <del>$25.00</del>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div className="showcase">
-                        <a href="#" className="showcase-img-box">
-                          <img
-                            src="./assets/images/products/shorts-1.jpg"
-                            alt="better basics french terry sweatshorts"
-                            className="showcase-img"
-                            width="70"
-                          />
-                        </a>
-
-                        <div className="showcase-content">
-                          <a href="#">
-                            <h4 className="showcase-title">
-                              Better Basics French Terry Sweatshorts
-                            </h4>
-                          </a>
-
-                          <a href="#" className="showcase-category">
-                            Shorts
-                          </a>
-
-                          <div className="price-box">
-                            <p className="price">$20.00</p>
-                            <del>$10.00</del>
+                            <p className="price">$150.00</p>
                           </div>
                         </div>
                       </div>
@@ -590,227 +223,83 @@ const Shop = () => {
                   <div className="showcase-wrapper has-scrollbar">
                     <div className="showcase-container">
                       <div className="showcase">
-                        <a href="#" className="showcase-img-box">
+                        <a className="showcase-img-box">
                           <img
-                            src="./assets/images/products/sports-1.jpg"
-                            alt="running & trekking shoes - white"
+                            src={product3}
+                            alt="Cheetah Plus HC 78M 400Watt Mono Perc Half Cell Module"
                             className="showcase-img"
                             width="70"
                           />
                         </a>
 
                         <div className="showcase-content">
-                          <a href="#">
+                          <a href="text">
                             <h4 className="showcase-title">
-                              Running & Trekking Shoes - White
+                            Cheetah Plus HC 78M 400Watt Mono Perc Half Cell Module
                             </h4>
                           </a>
 
-                          <a href="#" className="showcase-category">
-                            Sports
+                          <a className="showcase-category">
+                            Tech
                           </a>
 
                           <div className="price-box">
-                            <p className="price">$49.00</p>
-                            <del>$15.00</del>
+                            <p className="price">$150.00</p>
                           </div>
                         </div>
                       </div>
 
                       <div className="showcase">
-                        <a href="#" className="showcase-img-box">
+                        <a className="showcase-img-box">
                           <img
-                            src="./assets/images/products/sports-2.jpg"
-                            alt="trekking & running shoes - black"
+                            src={product6}
+                            alt="Aspire-Off, Inverter/UPS, Uncategorized, Voltronic-Offgrid"
                             className="showcase-img"
                             width="70"
                           />
                         </a>
 
                         <div className="showcase-content">
-                          <a href="#">
+                          <a href="text">
                             <h4 className="showcase-title">
-                              Trekking & Running Shoes - black
+                              Aspire-Off, Inverter/UPS, Uncategorized,
+                              Voltronic-Offgrid
                             </h4>
                           </a>
 
-                          <a href="#" className="showcase-category">
-                            Sports
+                          <a className="showcase-category">
+                            Tech
                           </a>
 
                           <div className="price-box">
-                            <p className="price">$78.00</p>
-                            <del>$36.00</del>
+                            <p className="price">$250.00</p>
                           </div>
                         </div>
                       </div>
 
                       <div className="showcase">
-                        <a href="#" className="showcase-img-box">
+                        <a className="showcase-img-box">
                           <img
-                            src="./assets/images/products/party-wear-1.jpg"
-                            alt="womens party wear shoes"
+                            src={product6}
+                            alt="Aspire-Off, Inverter/UPS, Uncategorized, Voltronic-Offgrid"
                             className="showcase-img"
                             width="70"
                           />
                         </a>
 
                         <div className="showcase-content">
-                          <a href="#">
+                          <a href="text">
                             <h4 className="showcase-title">
-                              Womens Party Wear Shoes
+                            Aspire-Off, Inverter/UPS, Uncategorized, Voltronic-Offgrid
                             </h4>
                           </a>
 
-                          <a href="#" className="showcase-category">
-                            Party wear
+                          <a className="showcase-category">
+                            Tech
                           </a>
 
                           <div className="price-box">
-                            <p className="price">$94.00</p>
-                            <del>$42.00</del>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div className="showcase">
-                        <a href="#" className="showcase-img-box">
-                          <img
-                            src="./assets/images/products/sports-3.jpg"
-                            alt="sports claw women's shoes"
-                            className="showcase-img"
-                            width="70"
-                          />
-                        </a>
-
-                        <div className="showcase-content">
-                          <a href="#">
-                            <h4 className="showcase-title">
-                              Sports Claw Women's Shoes
-                            </h4>
-                          </a>
-
-                          <a href="#" className="showcase-category">
-                            Sports
-                          </a>
-
-                          <div className="price-box">
-                            <p className="price">$54.00</p>
-                            <del>$65.00</del>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="showcase-container">
-                      <div className="showcase">
-                        <a href="#" className="showcase-img-box">
-                          <img
-                            src="./assets/images/products/sports-6.jpg"
-                            alt="air tekking shoes - white"
-                            className="showcase-img"
-                            width="70"
-                          />
-                        </a>
-
-                        <div className="showcase-content">
-                          <a href="#">
-                            <h4 className="showcase-title">
-                              Air Trekking Shoes - white
-                            </h4>
-                          </a>
-
-                          <a href="#" className="showcase-category">
-                            Sports
-                          </a>
-
-                          <div className="price-box">
-                            <p className="price">$52.00</p>
-                            <del>$55.00</del>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div className="showcase">
-                        <a href="#" className="showcase-img-box">
-                          <img
-                            src="./assets/images/products/shoe-3.jpg"
-                            alt="Boot With Suede Detail"
-                            className="showcase-img"
-                            width="70"
-                          />
-                        </a>
-
-                        <div className="showcase-content">
-                          <a href="#">
-                            <h4 className="showcase-title">
-                              Boot With Suede Detail
-                            </h4>
-                          </a>
-
-                          <a href="#" className="showcase-category">
-                            boots
-                          </a>
-
-                          <div className="price-box">
-                            <p className="price">$20.00</p>
-                            <del>$30.00</del>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div className="showcase">
-                        <a href="#" className="showcase-img-box">
-                          <img
-                            src="./assets/images/products/shoe-1.jpg"
-                            alt="men's leather formal wear shoes"
-                            className="showcase-img"
-                            width="70"
-                          />
-                        </a>
-
-                        <div className="showcase-content">
-                          <a href="#">
-                            <h4 className="showcase-title">
-                              Men's Leather Formal Wear shoes
-                            </h4>
-                          </a>
-
-                          <a href="#" className="showcase-category">
-                            formal
-                          </a>
-
-                          <div className="price-box">
-                            <p className="price">$56.00</p>
-                            <del>$78.00</del>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div className="showcase">
-                        <a href="#" className="showcase-img-box">
-                          <img
-                            src="./assets/images/products/shoe-2.jpg"
-                            alt="casual men's brown shoes"
-                            className="showcase-img"
-                            width="70"
-                          />
-                        </a>
-
-                        <div className="showcase-content">
-                          <a href="#">
-                            <h4 className="showcase-title">
-                              Casual Men's Brown shoes
-                            </h4>
-                          </a>
-
-                          <a href="#" className="showcase-category">
-                            Casual
-                          </a>
-
-                          <div className="price-box">
-                            <p className="price">$50.00</p>
-                            <del>$55.00</del>
+                            <p className="price">$150.00</p>
                           </div>
                         </div>
                       </div>
@@ -824,227 +313,55 @@ const Shop = () => {
                   <div className="showcase-wrapper has-scrollbar">
                     <div className="showcase-container">
                       <div className="showcase">
-                        <a href="#" className="showcase-img-box">
+                        <a className="showcase-img-box">
                           <img
-                            src="./assets/images/products/watch-3.jpg"
-                            alt="pocket watch leather pouch"
+                            src={product4}
+                            alt="Inverex 5kw NitroX Hybrid Inverter"
                             className="showcase-img"
                             width="70"
                           />
                         </a>
 
                         <div className="showcase-content">
-                          <a href="#">
+                          <a href="text">
                             <h4 className="showcase-title">
-                              Pocket Watch Leather Pouch
+                              Inverex 5kw NitroX Hybrid Inverter
                             </h4>
                           </a>
 
-                          <a href="#" className="showcase-category">
-                            Watches
+                          <a className="showcase-category">
+                            Electronics
                           </a>
 
                           <div className="price-box">
                             <p className="price">$50.00</p>
-                            <del>$34.00</del>
                           </div>
                         </div>
                       </div>
 
                       <div className="showcase">
-                        <a href="#" className="showcase-img-box">
+                        <a className="showcase-img-box">
                           <img
-                            src="./assets/images/products/jewellery-3.jpg"
-                            alt="silver deer heart necklace"
+                            src={product5}
+                            alt="Inverex 150w Mono PERC Inverperfect INV-150"
                             className="showcase-img"
                             width="70"
                           />
                         </a>
 
                         <div className="showcase-content">
-                          <a href="#">
+                          <a href="text">
                             <h4 className="showcase-title">
-                              Silver Deer Heart Necklace
+                              Inverex 150w Mono PERC Inverperfect INV-150
                             </h4>
                           </a>
 
-                          <a href="#" className="showcase-category">
-                            Jewellery
+                          <a className="showcase-category">
+                            Tech
                           </a>
 
                           <div className="price-box">
-                            <p className="price">$84.00</p>
-                            <del>$30.00</del>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div className="showcase">
-                        <a href="#" className="showcase-img-box">
-                          <img
-                            src="./assets/images/products/perfume.jpg"
-                            alt="titan 100 ml womens perfume"
-                            className="showcase-img"
-                            width="70"
-                          />
-                        </a>
-
-                        <div className="showcase-content">
-                          <a href="#">
-                            <h4 className="showcase-title">
-                              Titan 100 Ml Womens Perfume
-                            </h4>
-                          </a>
-
-                          <a href="#" className="showcase-category">
-                            Perfume
-                          </a>
-
-                          <div className="price-box">
-                            <p className="price">$42.00</p>
-                            <del>$10.00</del>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div className="showcase">
-                        <a href="#" className="showcase-img-box">
-                          <img
-                            src="./assets/images/products/belt.jpg"
-                            alt="men's leather reversible belt"
-                            className="showcase-img"
-                            width="70"
-                          />
-                        </a>
-
-                        <div className="showcase-content">
-                          <a href="#">
-                            <h4 className="showcase-title">
-                              Men's Leather Reversible Belt
-                            </h4>
-                          </a>
-
-                          <a href="#" className="showcase-category">
-                            Belt
-                          </a>
-
-                          <div className="price-box">
-                            <p className="price">$24.00</p>
-                            <del>$10.00</del>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="showcase-container">
-                      <div className="showcase">
-                        <a href="#" className="showcase-img-box">
-                          <img
-                            src="./assets/images/products/jewellery-2.jpg"
-                            alt="platinum zircon classNameic ring"
-                            className="showcase-img"
-                            width="70"
-                          />
-                        </a>
-
-                        <div className="showcase-content">
-                          <a href="#">
-                            <h4 className="showcase-title">
-                              platinum Zircon classNameic Ring
-                            </h4>
-                          </a>
-
-                          <a href="#" className="showcase-category">
-                            jewellery
-                          </a>
-
-                          <div className="price-box">
-                            <p className="price">$62.00</p>
-                            <del>$65.00</del>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div className="showcase">
-                        <a href="#" className="showcase-img-box">
-                          <img
-                            src="./assets/images/products/watch-1.jpg"
-                            alt="smart watche vital plus"
-                            className="showcase-img"
-                            width="70"
-                          />
-                        </a>
-
-                        <div className="showcase-content">
-                          <a href="#">
-                            <h4 className="showcase-title">
-                              Smart watche Vital Plus
-                            </h4>
-                          </a>
-
-                          <a href="#" className="showcase-category">
-                            Watches
-                          </a>
-
-                          <div className="price-box">
-                            <p className="price">$56.00</p>
-                            <del>$78.00</del>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div className="showcase">
-                        <a href="#" className="showcase-img-box">
-                          <img
-                            src="./assets/images/products/shampoo.jpg"
-                            alt="shampoo conditioner packs"
-                            className="showcase-img"
-                            width="70"
-                          />
-                        </a>
-
-                        <div className="showcase-content">
-                          <a href="#">
-                            <h4 className="showcase-title">
-                              shampoo conditioner packs
-                            </h4>
-                          </a>
-
-                          <a href="#" className="showcase-category">
-                            cosmetics
-                          </a>
-
-                          <div className="price-box">
-                            <p className="price">$20.00</p>
-                            <del>$30.00</del>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div className="showcase">
-                        <a href="#" className="showcase-img-box">
-                          <img
-                            src="./assets/images/products/jewellery-1.jpg"
-                            alt="rose gold peacock earrings"
-                            className="showcase-img"
-                            width="70"
-                          />
-                        </a>
-
-                        <div className="showcase-content">
-                          <a href="#">
-                            <h4 className="showcase-title">
-                              Rose Gold Peacock Earrings
-                            </h4>
-                          </a>
-
-                          <a href="#" className="showcase-category">
-                            jewellery
-                          </a>
-
-                          <div className="price-box">
-                            <p className="price">$20.00</p>
-                            <del>$30.00</del>
+                            <p className="price">$350.00</p>
                           </div>
                         </div>
                       </div>
@@ -1080,7 +397,7 @@ const Shop = () => {
                           <ion-icon name="star-outline"></ion-icon>
                         </div>
 
-                        <a href="#">
+                        <a href="text">
                           <h3 className="showcase-title">
                             shampoo, conditioner & facewash packs
                           </h3>
@@ -1093,8 +410,6 @@ const Shop = () => {
 
                         <div className="price-box">
                           <p className="price">$150.00</p>
-
-                          <del>$200.00</del>
                         </div>
 
                         <button className="add-cart-btn">add to cart</button>
@@ -1149,7 +464,7 @@ const Shop = () => {
                     <div className="showcase">
                       <div className="showcase-banner">
                         <img
-                          src="./assets/images/products/jewellery-1.jpg"
+                          src={''}
                           alt="Rose Gold diamonds Earring"
                           className="showcase-img"
                         />
@@ -1165,7 +480,7 @@ const Shop = () => {
                         </div>
 
                         <h3 className="showcase-title">
-                          <a href="#" className="showcase-title">
+                          <a className="showcase-title">
                             Rose Gold diamonds Earring
                           </a>
                         </h3>
@@ -1177,7 +492,6 @@ const Shop = () => {
 
                         <div className="price-box">
                           <p className="price">$1990.00</p>
-                          <del>$2000.00</del>
                         </div>
 
                         <button className="add-cart-btn">add to cart</button>

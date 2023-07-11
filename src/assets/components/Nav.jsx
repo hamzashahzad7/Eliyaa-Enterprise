@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import Cart from  "./Cart";
 
 const Nav = () => {
+  const [isShowing, setShowing] = useState(false);
+  const showHandler = () => setShowing(!isShowing);
+
   return (
     <>
+      <Cart isShowing={isShowing} setShowing={setShowing} />
       <header>
         <div className="header-top">
           <div className="container">
@@ -16,7 +21,7 @@ const Nav = () => {
 
             <div className="header-top-actions">
               <select name="currency">
-                <option value="usd">USD &dollar;</option>
+                <option value="usd">USD</option>
               </select>
 
               <select name="language">
@@ -29,31 +34,26 @@ const Nav = () => {
         <div className="header-main">
           <div className="container">
             <a className="header-logo">
-              <img
-                src="./assets/images/logo/logo.svg"
-                alt="Anon's logo"
-                width="120"
-                height="36"
-              />
+              <h2 className="navLogo">Eliyaa Enterprise</h2>
             </a>
 
             <nav className="desktop-navigation-menu">
               <div className="container">
                 <ul className="desktop-menu-category-list">
                   <li className="menu-category">
-                    <Link to={'/'} className="menu-title">
+                    <Link to={"/"} className="menu-title">
                       Home
                     </Link>
                   </li>
 
                   <li className="menu-category">
-                    <Link to={'/about'} className="menu-title">
+                    <Link to={"/about"} className="menu-title">
                       About Us
                     </Link>
                   </li>
 
                   <li className="menu-category">
-                    <Link to={'/shop'} className="menu-title">
+                    <Link to={"/shop"} className="menu-title">
                       Shop
                     </Link>
 
@@ -77,7 +77,7 @@ const Nav = () => {
                   </li>
 
                   <li className="menu-category">
-                    <Link to={'/contact'} className="menu-title">
+                    <Link to={"/contact"} className="menu-title">
                       Contact Us
                     </Link>
                   </li>
@@ -85,25 +85,27 @@ const Nav = () => {
               </div>
             </nav>
 
-            <div className="header-user-actions">
-              <Link to={'shop'} className="action-btn">
+            <div className="header-user-actions" onClick={showHandler}>
+              <div className="action-btn">
                 <ion-icon name="bag-handle-outline"></ion-icon>
                 <span className="count">0</span>
-              </Link >
+              </div>
             </div>
           </div>
         </div>
 
-        <div
-          className="header-search-container"
-          style={{maxWidth: 400, margin: '2rem auto'}}
-        >
-          <input
-            type="search"
-            name="search"
-            className="search-field"
-            placeholder="Search your product name..."
-          />
+        <div className="header-search-main">
+          <div
+            className="header-search-container"
+            style={{ maxWidth: 400, margin: "2rem auto" }}
+          >
+            <input
+              type="search"
+              name="search"
+              className="search-field"
+              placeholder="Search your product name..."
+            />
+          </div>
         </div>
       </header>
     </>

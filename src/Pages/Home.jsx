@@ -1,7 +1,7 @@
-import React from "react";
-import banner1 from "../assets/images/banner-1.jpg";
-import banner2 from "../assets/images/banner-2.jpg";
-import banner3 from "../assets/images/banner-3.jpg";
+
+import solar from "../assets/images/solarPlates.png";
+import solar2 from "../assets/images/solarPlates2.png";
+import solar3 from "../assets/images/solarPlates3.png";
 import company1 from "../assets/images/companies/1.png";
 import company2 from "../assets/images/companies/2.png";
 import company3 from "../assets/images/companies/3.png";
@@ -18,10 +18,8 @@ import product3 from "../assets/images/3.png";
 import product4 from "../assets/images/4.jpg";
 import product5 from "../assets/images/5.jpg";
 
-// import img4 from "../assets/images/img4.png";
-// import img5 from "../assets/images/img5.png";
-
 const Home = () => {
+
   return (
     <div>
       <main>
@@ -30,66 +28,34 @@ const Home = () => {
     --> */}
 
         <div className="banner">
-          <div className="container">
+          <div className="container banner-slider">
             <div className="slider-container has-scrollbar">
-              <div className="slider-item">
-                <img
-                  src={banner1}
-                  alt="women's latest fashion sale"
-                  className="banner-img"
-                />
-
-                <div className="banner-content">
-                  <p className="banner-subtitle">Trending item</p>
-
-                  <h2 className="banner-title">Women's latest fashion sale</h2>
-
-                  <p className="banner-text">
-                    starting at &dollar; <b>20</b>.00
-                  </p>
-
-                  <a className="banner-btn">Shop now</a>
+              <div className="slider-item banner-item">
+                <div className="banner-item-container">
+                  <p>Pakistan Largest Solar Product Rande</p>
+                  <h4>SOLAR ONLINE SHOP</h4>
+                  <p>Warranty Protection And Long Lasting</p>
+                  <button>Order Now</button>
                 </div>
+                <img src={solar} alt="" />
               </div>
-
-              <div className="slider-item">
-                <img
-                  src={banner2}
-                  alt="modern sunglasses"
-                  className="banner-img"
-                />
-
-                <div className="banner-content">
-                  <p className="banner-subtitle">Trending accessories</p>
-
-                  <h2 className="banner-title">Modern sunglasses</h2>
-
-                  <p className="banner-text">
-                    starting at &dollar; <b>15</b>.00
-                  </p>
-
-                  <a className="banner-btn">Shop now</a>
+              <div className="slider-item banner-item">
+                <div className="banner-item-container">
+                  <p>Pakistan Largest Solar Product Rande</p>
+                  <h4>SOLAR ONLINE SHOP</h4>
+                  <p>Warranty Protection And Long Lasting</p>
+                  <button>Order Now</button>
                 </div>
+                <img src={solar2} alt="" />
               </div>
-
-              <div className="slider-item">
-                <img
-                  src={banner3}
-                  alt="new fashion summer sale"
-                  className="banner-img"
-                />
-
-                <div className="banner-content">
-                  <p className="banner-subtitle">Sale Offer</p>
-
-                  <h2 className="banner-title">New fashion summer sale</h2>
-
-                  <p className="banner-text">
-                    starting at &dollar; <b>29</b>.99
-                  </p>
-
-                  <a className="banner-btn">Shop now</a>
+              <div className="slider-item banner-item">
+                <div className="banner-item-container">
+                  <p>Pakistan Largest Solar Product Rande</p>
+                  <h4>SOLAR ONLINE SHOP</h4>
+                  <p>Warranty Protection And Long Lasting</p>
+                  <button>Order Now</button>
                 </div>
+                <img src={solar3} alt="" />
               </div>
             </div>
           </div>
@@ -190,8 +156,7 @@ const Home = () => {
               <div className="blog-card">
                 <a>
                   <img
-                                     src={product3}
-
+                    src={product3}
                     alt="Cheetah Plus HC 78M 400Watt Mono Perc Half Cell Module"
                     className="blog-banner"
                     width="300"
@@ -212,8 +177,7 @@ const Home = () => {
               <div className="blog-card">
                 <a>
                   <img
-                                        src={product4}
-
+                    src={product4}
                     alt="Inverex 5kw NitroX Hybrid Inverter"
                     className="blog-banner"
                     width="300"
@@ -234,8 +198,7 @@ const Home = () => {
               <div className="blog-card">
                 <a>
                   <img
-                                        src={product5}
-
+                    src={product5}
                     alt="Inverex 150w Mono PERC Inverperfect INV-150"
                     className="blog-banner"
                     width="300"
