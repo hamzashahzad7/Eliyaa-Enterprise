@@ -1,0 +1,39 @@
+.main-first-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .main-first-container img {
+    width: 50%;
+    object-fit: contain;
+  }
+  .main-text-section {
+    width: 50%;
+    display: grid;
+    place-items: center;
+    padding: 2rem;
+    text-align: center;
+  }
+  .main-text-section p {
+    font-size: 16px;
+    line-height: 1.7;
+  }
+  .main-text-section h1 {
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  @media (width <= 900px) {
+    .main-first-container {
+      flex-direction: column;
+    }
+    .main-first-container img {
+      width: 100%;
+    }
+    .main-text-section{
+      width: 100%;
+    }
+  }
+  
