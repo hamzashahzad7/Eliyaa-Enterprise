@@ -2720,7 +2720,10 @@ footer {
     min-width: -webkit-calc(100% - 345px);
     min-width: calc(100% - 345px);
   }
-
+  .showcase-img-box img{
+    object-fit: contain;
+    width: 90px;
+  }
   /**
    * #FOOTER 
    */
