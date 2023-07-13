@@ -108,7 +108,8 @@ const Footer = () => {
                 </div>
 
                 <address className="content">
-                  419 State 414 Rte Beaver Dams, New York(NY), 14812, USA
+                  Main GT Road, Beside Faisal Bank, Near Darogawala Chock,
+                  Lahore
                 </address>
               </li>
 
@@ -118,17 +119,7 @@ const Footer = () => {
                 </div>
 
                 <a href="tel:+607936-8058" className="footer-nav-link">
-                  (607) 936-8058
-                </a>
-              </li>
-
-              <li className="footer-nav-item flex">
-                <div className="icon-box">
-                  <ion-icon name="mail-outline"></ion-icon>
-                </div>
-
-                <a href="mailto:example@gmail.com" className="footer-nav-link">
-                  example@gmail.com
+                  (+92) 300 7113227
                 </a>
               </li>
             </ul>

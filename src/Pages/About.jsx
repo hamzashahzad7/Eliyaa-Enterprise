@@ -15,14 +15,14 @@ const About = () => {
         <div className="main-first-container">
           <img src={about1} alt="" />
           <div className="main-text-section">
-            <h1>SOLAR TRADE</h1>
+            <h1>Eliyaa Enterprises</h1>
             <p>
-              Solar Trade is one of the leading photovoltaic distributors
+              Eliyaa Enterprises is one of the leading photovoltaic distributors
               worldwide. The owner-managed and self-financed company offers a
               wide range of products for PV installers: solar modules,
               inverters, photovoltaic mounting systems, self-consumption
               systems, e-mobility, PV installation monitoring, and accessories.
-              Solar Trade attaches great importance to providing its customers
+              Eliyaa Enterprises attaches great importance to providing its customers
               and project partners with sound advice and high product quality.
               Only high-quality components are included in the photovoltaic
               wholesaler’s product range. The portfolio includes solar modules

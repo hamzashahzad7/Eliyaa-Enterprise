@@ -21,7 +21,7 @@ const Nav = () => {
 
             <div className="header-top-actions">
               <select name="currency">
-                <option value="usd">USD</option>
+                <option value="pkr">PKR</option>
               </select>
 
               <select name="language">

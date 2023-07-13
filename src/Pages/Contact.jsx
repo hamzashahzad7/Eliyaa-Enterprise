@@ -1,8 +1,14 @@
-import React from "react";
-import '../assets/css/contact.css'
-import img1 from '../assets/images/about1.png';
+import React, { useState } from "react";
+import "../assets/css/contact.css";
+import img1 from "../assets/images/contact-map.png";
 
 const Contact = () => {
+  const [btnText, setBtnText] = useState("Submit");
+  const onSubmit = (e) => {
+    e.preventDefault();
+    setBtnText("Submitted");
+  };
+
   return (
     <div>
       {/* <!-- */}
@@ -19,32 +25,16 @@ const Contact = () => {
           <div className="container-form-inner">
             <div>
               <h2>Address</h2>
-              <p>Sector 16 Korangi Industrial area ,Karachi Pakistan</p>
+              <p>
+                Main GT Road, Beside Faisal Bank, Near Darogawala Chock, Lahore
+              </p>
             </div>
 
             <div>
-              <h2>Address E-mail</h2>
-              <p>xyz@gmail.com</p>
-            </div>
-
-            <div>
-              <h2>Telephone Enquiry</h2>
-              <p>Hotline 01: (+92 300 920 8250)</p>
-            </div>
-
-            <div>
-              <h2>Opening Time</h2>
-              <p>Open: 10:30 AM - Close 06:30 PM</p>
-              <p>Sunday: Closed</p>
+              <h2>Telephone Number</h2>
+              <p>Phone: +92 300 7113227</p>
             </div>
           </div>
-          {/* <!-- 
-          Icon Section 
-        --> */}
-          <div>
-            <h3>Follow Us</h3>
-          </div>
-
           {/* <!-- 
           Form Section
          --> */}
@@ -61,7 +51,11 @@ const Contact = () => {
             <input type="text" />
 
             <label for="">Your Message</label>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <textarea></textarea>
+
+            <button className="contact-btn" onClick={onSubmit}>
+              {btnText}
+            </button>
           </form>
         </div>
       </main>
