@@ -1,12 +1,4 @@
 /*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
-
-/**
- * copyright 2022 @codewithsadee 
- */
-
-/*-----------------------------------*\
   #CUSTOM PROPERTY
 \*-----------------------------------*/
 
@@ -67,6 +59,10 @@
 .navLogo{
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   
+}
+
+.desktop-menu-category-list{
+margin-left: -17rem;
 }
 
 /*-----------------------------------*\
@@ -570,11 +566,12 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .header-logo {
-  margin-bottom: 20px;
+  width: 30%;
 }
 
 .header-logo img {
-  margin: auto;
+  width: 50%;
+  object-fit: contain;
 }
 
 .header-search-container {
@@ -2418,6 +2415,16 @@ footer {
     --fs-8: 0.875rem;
   }
 }
+@media (width <= 1000px){
+  .header-logo {
+    width: 50%;
+    margin-bottom: 0;
+    margin: auto;
+  }
+  .header-logo img{
+    width: 100%;
+  }
+}
 
 /**
  * responsive larger than 570px screen
@@ -2442,10 +2449,6 @@ footer {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-  }
-
-  .header-logo {
-    margin-bottom: 0;
   }
 
   .header-top-actions {

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import Logo from '../images/Logo.jpg'
 import Cart from  "./Cart";
 
 const Nav = () => {
@@ -34,7 +35,7 @@ const Nav = () => {
         <div className="header-main">
           <div className="container">
             <a className="header-logo">
-              <h2 className="navLogo">Eliyaa Enterprise</h2>
+              <img src={Logo} alt="" />
             </a>
 
             <nav className="desktop-navigation-menu">
