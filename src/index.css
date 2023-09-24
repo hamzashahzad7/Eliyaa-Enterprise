@@ -1,6 +1,9 @@
 /*-----------------------------------*\
   #CUSTOM PROPERTY
 \*-----------------------------------*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   /**
@@ -2029,6 +2032,7 @@ body::-webkit-scrollbar-thumb:hover {
 .blog-card {
   min-width: 100%;
   scroll-snap-align: start;
+  position: relative;
 }
 
 .blog-banner {

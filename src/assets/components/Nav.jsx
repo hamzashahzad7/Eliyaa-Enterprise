@@ -1,11 +1,14 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import Logo from '../images/Logo.jpg'
-import Cart from  "./Cart";
+import Logo from "../images/Logo.jpg";
+import Cart from "./Cart";
+import { useSelector } from "react-redux";
 
 const Nav = () => {
   const [isShowing, setShowing] = useState(false);
   const showHandler = () => setShowing(!isShowing);
+
+  const { items } = useSelector((state) => state.rootReducer);
 
   return (
     <>
@@ -86,10 +89,12 @@ const Nav = () => {
               </div>
             </nav>
 
-            <div className="header-user-actions" onClick={showHandler}>
+            <div className="header-user-actions cursor-pointer" onClick={showHandler}>
               <div className="action-btn">
                 <ion-icon name="bag-handle-outline"></ion-icon>
-                <span className="count">0</span>
+                <span className="count">
+                  {items?.length ? items.length : 0}
+                </span>
               </div>
             </div>
           </div>
